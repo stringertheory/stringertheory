@@ -64,6 +64,6 @@ for x, char in enumerate(message):
 outline_group = drawing.add(drawing.g(fill="none", stroke=text_color, stroke_width=0.05, stroke_opacity=1))
 for x, char in enumerate(message):
     if char.strip():
-        outline_group.add(drawing.rect(insert=(x, 0.5), size=(1, 1), transform=f"rotate({1 * x} {x + 0.5} {1})"))
+        outline_group.add(drawing.rect(insert=(x, 0.5), size=(1, 1), transform=f"rotate({(1 + random.random()) * x} {x + 0.5} {1})"))
     
 drawing.saveas("image.svg", pretty=True)
