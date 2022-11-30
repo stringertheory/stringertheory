@@ -8,11 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - run: pipx install poetry
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
-    - uses: snok/install-poetry@v1
-    - run: poetry install --no-interaction
+        python-version-file: '.python-version'
+	cache: 'poetry'
+    - run: poetry install
     - run: |
         source $(poetry env info --path)/bin/activate
         python make_image.py
