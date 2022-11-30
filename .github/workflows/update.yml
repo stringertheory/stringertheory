@@ -14,5 +14,5 @@ jobs:
     - uses: snok/install-poetry@v1
     - run: poetry install --no-interaction
     - run: |
-        poetry shell
+        source $(poetry env info --path)/bin/activate
         python make_image.py
