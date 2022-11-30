@@ -12,5 +12,5 @@ jobs:
       with:
         python-version: '3.11'
     - uses: snok/install-poetry@v1
-    - run: poetry
+    - run: poetry install --no-interaction
     - run: python make_image.py
