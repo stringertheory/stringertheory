@@ -16,3 +16,8 @@ jobs:
     - run: |
         source $(poetry env info --path)/bin/activate
         python make_image.py
+	git config user.name 'stringertheory'
+        git config user.email '<mike.stringer.internet@gmail.com>'
+	git add image.svg
+	git commit -m 'auto-update'
+	git push
