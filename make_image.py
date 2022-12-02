@@ -10,16 +10,18 @@ def get_part_of_day(time, city):
         "date": time.date(),
         "tzinfo": city.timezone,
     }
+    start = datetime.datetime.combine(time.date(), datetime.time(), tzinfo=city.timezone)
     sun = astral.sun.sun(city.observer, **kwargs)
-    midnight = astral.sun.midnight(city.observer, **kwargs)
+    today_weekday = f"{time:%A}"
+    yesterday_weekday = f"{time - datetime.timedelta(days=1):%A}"
+    if start <= time < sun['dawn']:
+        return yesterday_weekday, "night"
     if sun['dawn'] <= time < sun['noon']:
-        return "morning"
+        return today_weekday, "morning"
     elif sun["noon"] <= time < sun["sunset"]:
-        return "afternoon"
-    elif sun["sunset"] <= time < midnight:
-        return "evening"
+        return today_weekday, "afternoon"
     else:
-        return "night"
+        return today_weekday, "evening"
 
 parts_of_day = ["morning", "afternoon", "evening", "night"]
 square_colors = ["#fff59e", "#80ffcc", "#9cb29e", "#a10045"]
@@ -27,7 +29,8 @@ text_colors = ["#111", "#222", "#000", "#eee"]
 background_colors = ["#eee", "#eee", "#eee", "#111"]
     
 timezone = zoneinfo.ZoneInfo("America/Chicago")
-now = datetime.datetime.now(timezone)
+# now = datetime.datetime.now(timezone)
+now = datetime.datetime.now(timezone) - datetime.timedelta(hours=4)
 
 city = astral.LocationInfo(
     name='Chicago',
@@ -37,13 +40,13 @@ city = astral.LocationInfo(
     longitude=-87.6298,
 )
 
-part_of_day = get_part_of_day(now, city)
+weekday, part_of_day = get_part_of_day(now, city)
 color_index = parts_of_day.index(part_of_day)
 square_color = square_colors[color_index]
 text_color = text_colors[color_index]
 background_color = background_colors[color_index]
 
-message = f"It's {now:%A} {part_of_day} in Chicago"
+message = f"It's {weekday} {part_of_day} in Chicago"
 n_characters = len(message)
 text_height = 0.67
 
