@@ -29,8 +29,7 @@ text_colors = ["#111", "#222", "#000", "#eee"]
 background_colors = ["#eee", "#eee", "#eee", "#111"]
     
 timezone = zoneinfo.ZoneInfo("America/Chicago")
-# now = datetime.datetime.now(timezone)
-now = datetime.datetime.now(timezone) - datetime.timedelta(hours=4)
+now = datetime.datetime.now(timezone)
 
 city = astral.LocationInfo(
     name='Chicago',
