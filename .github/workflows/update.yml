@@ -15,7 +15,7 @@ jobs:
       with:
         python-version-file: '.python-version'
         cache: 'poetry'
-    - run: poetry install
+    - run: poetry install --no-root
     - run: |
         source $(poetry env info --path)/bin/activate
         python make_image.py
