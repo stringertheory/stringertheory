@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="100%" version="1.1" viewBox="-1 0 34 2" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="100%" version="1.1" viewBox="-1 0 32 2" width="100%">
   <defs/>
-  <rect fill="#eee" height="2" width="34" x="-1" y="0"/>
-  <g fill="#80ffcc" stroke="#222" stroke-opacity="1" stroke-width="0.05">
+  <rect fill="#eee" height="2" width="32" x="-1" y="0"/>
+  <g fill="#9cb29e" stroke="#000" stroke-opacity="1" stroke-width="0.05">
     <rect height="1" transform="rotate(0 0.5 1)" width="1" x="0" y="0.5"/>
     <rect height="1" transform="rotate(1 1.5 1)" width="1" x="1" y="0.5"/>
     <rect height="1" transform="rotate(2 2.5 1)" width="1" x="2" y="0.5"/>
@@ -20,19 +20,17 @@
     <rect height="1" transform="rotate(16 16.5 1)" width="1" x="16" y="0.5"/>
     <rect height="1" transform="rotate(17 17.5 1)" width="1" x="17" y="0.5"/>
     <rect height="1" transform="rotate(18 18.5 1)" width="1" x="18" y="0.5"/>
-    <rect height="1" transform="rotate(19 19.5 1)" width="1" x="19" y="0.5"/>
     <rect height="1" transform="rotate(20 20.5 1)" width="1" x="20" y="0.5"/>
-    <rect height="1" transform="rotate(22 22.5 1)" width="1" x="22" y="0.5"/>
+    <rect height="1" transform="rotate(21 21.5 1)" width="1" x="21" y="0.5"/>
     <rect height="1" transform="rotate(23 23.5 1)" width="1" x="23" y="0.5"/>
+    <rect height="1" transform="rotate(24 24.5 1)" width="1" x="24" y="0.5"/>
     <rect height="1" transform="rotate(25 25.5 1)" width="1" x="25" y="0.5"/>
     <rect height="1" transform="rotate(26 26.5 1)" width="1" x="26" y="0.5"/>
     <rect height="1" transform="rotate(27 27.5 1)" width="1" x="27" y="0.5"/>
     <rect height="1" transform="rotate(28 28.5 1)" width="1" x="28" y="0.5"/>
     <rect height="1" transform="rotate(29 29.5 1)" width="1" x="29" y="0.5"/>
-    <rect height="1" transform="rotate(30 30.5 1)" width="1" x="30" y="0.5"/>
-    <rect height="1" transform="rotate(31 31.5 1)" width="1" x="31" y="0.5"/>
   </g>
-  <g fill="#222" font-family="sans-serif" font-size="0.67" text-anchor="middle">
+  <g fill="#000" font-family="sans-serif" font-size="0.67" text-anchor="middle">
     <text alignment-baseline="middle" x="0.5" y="1">I</text>
     <text alignment-baseline="middle" x="1.5" y="1">T</text>
     <text alignment-baseline="middle" x="2.5" y="1">'</text>
@@ -45,55 +43,51 @@
     <text alignment-baseline="middle" x="9.5" y="1">A</text>
     <text alignment-baseline="middle" x="10.5" y="1">Y</text>
     <text alignment-baseline="middle" x="11.5" y="1"> </text>
-    <text alignment-baseline="middle" x="12.5" y="1">A</text>
-    <text alignment-baseline="middle" x="13.5" y="1">F</text>
-    <text alignment-baseline="middle" x="14.5" y="1">T</text>
-    <text alignment-baseline="middle" x="15.5" y="1">E</text>
-    <text alignment-baseline="middle" x="16.5" y="1">R</text>
+    <text alignment-baseline="middle" x="12.5" y="1">E</text>
+    <text alignment-baseline="middle" x="13.5" y="1">V</text>
+    <text alignment-baseline="middle" x="14.5" y="1">E</text>
+    <text alignment-baseline="middle" x="15.5" y="1">N</text>
+    <text alignment-baseline="middle" x="16.5" y="1">I</text>
     <text alignment-baseline="middle" x="17.5" y="1">N</text>
-    <text alignment-baseline="middle" x="18.5" y="1">O</text>
-    <text alignment-baseline="middle" x="19.5" y="1">O</text>
-    <text alignment-baseline="middle" x="20.5" y="1">N</text>
-    <text alignment-baseline="middle" x="21.5" y="1"> </text>
-    <text alignment-baseline="middle" x="22.5" y="1">I</text>
-    <text alignment-baseline="middle" x="23.5" y="1">N</text>
-    <text alignment-baseline="middle" x="24.5" y="1"> </text>
-    <text alignment-baseline="middle" x="25.5" y="1">C</text>
-    <text alignment-baseline="middle" x="26.5" y="1">H</text>
-    <text alignment-baseline="middle" x="27.5" y="1">I</text>
-    <text alignment-baseline="middle" x="28.5" y="1">C</text>
-    <text alignment-baseline="middle" x="29.5" y="1">A</text>
-    <text alignment-baseline="middle" x="30.5" y="1">G</text>
-    <text alignment-baseline="middle" x="31.5" y="1">O</text>
+    <text alignment-baseline="middle" x="18.5" y="1">G</text>
+    <text alignment-baseline="middle" x="19.5" y="1"> </text>
+    <text alignment-baseline="middle" x="20.5" y="1">I</text>
+    <text alignment-baseline="middle" x="21.5" y="1">N</text>
+    <text alignment-baseline="middle" x="22.5" y="1"> </text>
+    <text alignment-baseline="middle" x="23.5" y="1">C</text>
+    <text alignment-baseline="middle" x="24.5" y="1">H</text>
+    <text alignment-baseline="middle" x="25.5" y="1">I</text>
+    <text alignment-baseline="middle" x="26.5" y="1">C</text>
+    <text alignment-baseline="middle" x="27.5" y="1">A</text>
+    <text alignment-baseline="middle" x="28.5" y="1">G</text>
+    <text alignment-baseline="middle" x="29.5" y="1">O</text>
   </g>
-  <g fill="none" stroke="#222" stroke-opacity="1" stroke-width="0.05">
+  <g fill="none" stroke="#000" stroke-opacity="1" stroke-width="0.05">
     <rect height="1" transform="rotate(0.0 0.5 1)" width="1" x="0" y="0.5"/>
-    <rect height="1" transform="rotate(1.9795916545975372 1.5 1)" width="1" x="1" y="0.5"/>
-    <rect height="1" transform="rotate(2.488483589212627 2.5 1)" width="1" x="2" y="0.5"/>
-    <rect height="1" transform="rotate(3.202749179002211 3.5 1)" width="1" x="3" y="0.5"/>
-    <rect height="1" transform="rotate(7.5377251299457875 5.5 1)" width="1" x="5" y="0.5"/>
-    <rect height="1" transform="rotate(11.020520282904716 6.5 1)" width="1" x="6" y="0.5"/>
-    <rect height="1" transform="rotate(12.649795176453289 7.5 1)" width="1" x="7" y="0.5"/>
-    <rect height="1" transform="rotate(11.539823918512655 8.5 1)" width="1" x="8" y="0.5"/>
-    <rect height="1" transform="rotate(12.300604729945464 9.5 1)" width="1" x="9" y="0.5"/>
-    <rect height="1" transform="rotate(10.750170837152432 10.5 1)" width="1" x="10" y="0.5"/>
-    <rect height="1" transform="rotate(21.509810601148317 12.5 1)" width="1" x="12" y="0.5"/>
-    <rect height="1" transform="rotate(16.9115015833789 13.5 1)" width="1" x="13" y="0.5"/>
-    <rect height="1" transform="rotate(25.899777481854166 14.5 1)" width="1" x="14" y="0.5"/>
-    <rect height="1" transform="rotate(19.901802022877828 15.5 1)" width="1" x="15" y="0.5"/>
-    <rect height="1" transform="rotate(30.667022847570195 16.5 1)" width="1" x="16" y="0.5"/>
-    <rect height="1" transform="rotate(17.385814635355846 17.5 1)" width="1" x="17" y="0.5"/>
-    <rect height="1" transform="rotate(32.06440497783843 18.5 1)" width="1" x="18" y="0.5"/>
-    <rect height="1" transform="rotate(32.1383111679345 19.5 1)" width="1" x="19" y="0.5"/>
-    <rect height="1" transform="rotate(29.635113744853232 20.5 1)" width="1" x="20" y="0.5"/>
-    <rect height="1" transform="rotate(27.819228702969777 22.5 1)" width="1" x="22" y="0.5"/>
-    <rect height="1" transform="rotate(31.549228227744987 23.5 1)" width="1" x="23" y="0.5"/>
-    <rect height="1" transform="rotate(35.15235704518977 25.5 1)" width="1" x="25" y="0.5"/>
-    <rect height="1" transform="rotate(47.52439458272202 26.5 1)" width="1" x="26" y="0.5"/>
-    <rect height="1" transform="rotate(41.30988671238703 27.5 1)" width="1" x="27" y="0.5"/>
-    <rect height="1" transform="rotate(42.63425612805261 28.5 1)" width="1" x="28" y="0.5"/>
-    <rect height="1" transform="rotate(53.52853304821192 29.5 1)" width="1" x="29" y="0.5"/>
-    <rect height="1" transform="rotate(51.03210004807989 30.5 1)" width="1" x="30" y="0.5"/>
-    <rect height="1" transform="rotate(45.923334744685974 31.5 1)" width="1" x="31" y="0.5"/>
+    <rect height="1" transform="rotate(1.119668013830053 1.5 1)" width="1" x="1" y="0.5"/>
+    <rect height="1" transform="rotate(3.11340743638518 2.5 1)" width="1" x="2" y="0.5"/>
+    <rect height="1" transform="rotate(4.507821954061557 3.5 1)" width="1" x="3" y="0.5"/>
+    <rect height="1" transform="rotate(9.793059651697964 5.5 1)" width="1" x="5" y="0.5"/>
+    <rect height="1" transform="rotate(11.710528938788151 6.5 1)" width="1" x="6" y="0.5"/>
+    <rect height="1" transform="rotate(12.406518827843412 7.5 1)" width="1" x="7" y="0.5"/>
+    <rect height="1" transform="rotate(13.354490015372573 8.5 1)" width="1" x="8" y="0.5"/>
+    <rect height="1" transform="rotate(10.473735655097919 9.5 1)" width="1" x="9" y="0.5"/>
+    <rect height="1" transform="rotate(19.809396054589115 10.5 1)" width="1" x="10" y="0.5"/>
+    <rect height="1" transform="rotate(17.443024652685665 12.5 1)" width="1" x="12" y="0.5"/>
+    <rect height="1" transform="rotate(13.624988282291794 13.5 1)" width="1" x="13" y="0.5"/>
+    <rect height="1" transform="rotate(22.23383016504209 14.5 1)" width="1" x="14" y="0.5"/>
+    <rect height="1" transform="rotate(26.761609897479126 15.5 1)" width="1" x="15" y="0.5"/>
+    <rect height="1" transform="rotate(31.092541458869075 16.5 1)" width="1" x="16" y="0.5"/>
+    <rect height="1" transform="rotate(32.06565879349305 17.5 1)" width="1" x="17" y="0.5"/>
+    <rect height="1" transform="rotate(23.34901432859929 18.5 1)" width="1" x="18" y="0.5"/>
+    <rect height="1" transform="rotate(22.361988590138353 20.5 1)" width="1" x="20" y="0.5"/>
+    <rect height="1" transform="rotate(34.07646043336305 21.5 1)" width="1" x="21" y="0.5"/>
+    <rect height="1" transform="rotate(43.828929466055854 23.5 1)" width="1" x="23" y="0.5"/>
+    <rect height="1" transform="rotate(35.05071666106012 24.5 1)" width="1" x="24" y="0.5"/>
+    <rect height="1" transform="rotate(30.38923422163035 25.5 1)" width="1" x="25" y="0.5"/>
+    <rect height="1" transform="rotate(31.95083114448091 26.5 1)" width="1" x="26" y="0.5"/>
+    <rect height="1" transform="rotate(35.7419069989667 27.5 1)" width="1" x="27" y="0.5"/>
+    <rect height="1" transform="rotate(42.78478052490689 28.5 1)" width="1" x="28" y="0.5"/>
+    <rect height="1" transform="rotate(55.098016398602525 29.5 1)" width="1" x="29" y="0.5"/>
   </g>
 </svg>
